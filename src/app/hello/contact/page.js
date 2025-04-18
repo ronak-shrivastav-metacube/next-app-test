@@ -1,7 +1,5 @@
 'use client'
-import  {useRouter} from 'next/navigation';
 export default function Contact() {
-    let router = useRouter();
     return(
         <>
         <div>

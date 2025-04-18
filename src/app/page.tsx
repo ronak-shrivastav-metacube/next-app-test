@@ -1,12 +1,7 @@
 'use client'
 
-import Link from "next/link";
-
 export default function Home() {
-  const  showMsg = (item:string) => alert(item);
-
-  const InnerComp = () => <h3>I am inner component</h3>
-
+  
   return (
     <>    
     {/* Text color in tailwind CSS */}
